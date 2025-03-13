@@ -24,8 +24,8 @@ document.querySelector('#form-submit').addEventListener('click', function () {
     if (document.querySelector('.address').value === '') {
         document.querySelector('.error').innerText = 'Address is wrong.';
         return;
-    } else {
-        document.querySelector('.error').innerText = '';
+    } else{
+        document.querySelector('.error').innerText= 'Successfully Submitted'
     }
 
 });
